@@ -72,7 +72,7 @@ for i in range(0,len(test_pred)):
 result_test = pd.read_csv("test.csv") 
 result_test['SALES'] = test_pred
 
-result_test.to_csv()
+result_test.to_csv('result.csv')
 
 
 
