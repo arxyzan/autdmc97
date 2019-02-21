@@ -12,12 +12,7 @@ To produce the dataset ready for the training run the command below which runs t
 python data_preparation.py
 ```
 ### Training
-lgbm parameters are configured in lgbm.py:
-
-```
-python lgbm.py
-```
-Now the model can be trained on the dataset:
+lgbm parameters are configured in lgbm.py, the model can be trained on the dataset by running:
 
 ```
 python train_model.py
